@@ -1,0 +1,27 @@
+{
+  "name": "rhogeranacleto",
+  "version": "1.0.0",
+  "author": "Rhoger Anacleto <rhogeranacleto@gmail.com> (rhogeranacleto.github.com)",
+  "repository": {
+    "type": "Personal",
+    "url": "git+https://github.com/rhogeranacleto/rhogeranacleto.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rhogeranacleto/rhogeranacleto.github.io/issues",
+    "email": "rhogeranacleto@gmail.com"
+  },
+  "description": "My personal resume",
+  "homepage": "http://rhogeranacleto.github.io",
+  "maintainers": [
+    "rhogeranacleto@gmail.com"
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "tw": "npx tailwindcss -i ./tailwind.css -o ./index.css --watch"
+  },
+  "license": "ISC"
+}
